@@ -41,7 +41,7 @@ public class ContaTerminal {
         // Apresentação e exibição dos dados coletados
         System.out.println("----------------------------------------------------------------------");
         System.out.println("Olá ".concat(nomeCliente) + ", obrigado por criar uma conta em nosso banco.");
-        System.out.println("Sua agência é ".concat(agencia)+ "e sua conta é "+ numeroConta);
+        System.out.println("Sua agência é ".concat(agencia)+ ", conta "+ numeroConta);
         System.out.println("Seu saldo R$ "+ saldo + " já está disponível para saque.");
         System.out.println("----------------------------------------------------------------------");
 
